@@ -1,0 +1,19 @@
+1. Part of reapeating code was deleted (DRY method): 
+for example dice_image.py - roll of "5" is set by combining "4" and "1"
+
+2. Verification of used modules, removal of unused modules
+
+3. Name change of unused (but required) function arguments:
+for example in def dice_result(x, y) -> def dice_result(_, __)
+
+4. Code was set in functions, lack of code in global form
+
+5. Removal of "exit" button as it was unnecessary feature
+
+6. Small changes to increas code readability (removing/adding whitespaces, blank lines etc.)
+
+7. Changing the code to make it easier to modify the number of players
+
+8. Adding new feature: user decides how many players will play (1 - 5)
+
+9. Adding new feature: users can choose color of their turtle
